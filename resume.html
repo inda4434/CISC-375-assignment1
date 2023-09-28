@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Website</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button --> <!--DEBES HACER QUE EL MENU NO MUEVA NADA-->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html">Fun</a></li>
+            </ul>
+        </div>
+
+
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x"> <!--A single row; TITLE: subtitle-->
+                    <div class="cell small-11 large-12 headstyle">
+                        MARIA GRATZIA INDACOCHEA
+                    </div>
+                </div>
+                
+                <div class="grid-x grid-padding-x"><!--row menu at the top-->
+                    <div class="cell large-3 small-11 menustyle"><a href="index.html">HOME</a></div>
+                    <div class="cell large-3 small-11 menustyle"><a href="projects.html">PROJECTS</a></div>
+                    <div class="cell large-3 small-11 menustyle"><a href="resume.html">RESUME</a></div>
+                    <div class="cell large-3 small-11 menustyle"><a href="fun.html">FUN</a></div>
+                </div>
+
+                <br> 
+
+                <div class="grid-x grid-padding-x"> 
+                    <div class="cell small-11 large-12 center" style="background-color: transparent;">
+                        <h2 class="center">MY RESUME</h2>
+                    </div>
+
+                    <div class="cell small-10 large-10 center" style="background-color: azure;">
+                        <div class="rel">
+                            <div id="myresume" style="text-align: center;">
+                                <span style="font-weight: bolder; font-size: 140%;">MARIA GRATZIA INDACOCHEA</span><br>
+                                <span style="font-size: 90%;">inda4434@stthomas.edu - (612)449-1874 - <a href="" style="color: #34254e;">Linkedin</a></span>
+                            </div>
+
+                            <br>
+
+                            <div id="myresume" style="text-align: left;">
+                                <span style="font-weight: bolder;">EDUCATION</span> <br>
+                                <span style="font-weight: bold;">University of St. Thomas</span>, St. Paul, MN 	<span style="font-style: italic;">Anticipated Graduation: May 2024</span><br>
+                                Bachelor of Science in Computer Science, minor in Mathematics	GPA: 3.92 <br>
+                                Honors: Aquinas Scholar, Dean's List (fall 2020, spring 2021, fall 2021, spring 2022, fall 2022) <br>
+                                Relevant coursework: Data structures, Computer Architecture, Information Security, Algorithms, Operating Systems, Artificial Intelligence and Robotics. <br>
+                                Instituto Particular Abdón Calderón, Guayaquil, Ecuador 	February 2019 <br>
+                                High School Diploma. Medal of Recognition of Student Merit by the Ministry of Education of Ecuador
+                            </div>
+
+                            <br>
+
+                            <div id="myresume" style="text-align: left;">
+                                <span style="font-weight: bolder;">WORK EDUCATION</span> <br>
+                                
+                                CAM Summer Research Program, University of St. Thomas	          June 2023 - Present<br>
+                                Student Worker	St. Paul, MN<br>
+                                <ul class="myresumepoints">
+                                    <li>Research assistant on Power Domination project. Analyzed graphs representing power networks to find the optimal placement of the phasor measurement units on the network. The goal was to minimize the amount of sources needed to observe an entire network to be able to minimize cost.</li>
+                                </ul>
+                                
+                                Math Tutor, University of St. Thomas	September 2022 - Present<br>
+                                Student Worker	St. Paul, MN<br>
+                                <ul class="myresumepoints">
+                                    <li>Assist students on in-person and online appointments, helping them solve their doubts in math courses such as Calculus I, Calculus II, and Multi-variable Calculus.</li>
+                                    <li>Evaluate students learning styles and provide them appropriate techniques for maximum understanding.</li>
+                                </ul>
+
+                                Career Center Front Desk, University of St. Thomas	August 2021 - Present<br>
+                                Student Worker	St. Paul, MN <br>
+                                <ul class="myresumepoints">
+                                    <li>Connect with students and alumni and help them throughout the academic year.</li>
+                                    <li>Check-in students that are looking for drop-ins for help with their resume and career track.</li>
+                                </ul>
+                                
+                                Spanish Tutor, University of St. Thomas	September 2021 - May 2022 <br>
+                                Student Worker		St. Paul, MN <br>
+                                <ul class="myresumepoints">
+                                    <li>Gave in-person instruction for students that wanted to improve their Spanish skills.</li>
+                                    <li>Review and corrected students' compositions for their classes, explaining them what they can do better and giving out new ideas.</li>
+                                </ul>
+
+                                Math Team, Instituto Particular Abdón Calderón	March 2019 - February 2020 <br>
+                                Math Instructor	Guayaquil, Ecuador
+                                <ul class="myresumepoints">
+                                    <li>Managed a group of 30 students to prepare them for math competitions. Organized the school's math competition, providing original problems and supervising the organization of the event.</li>
+                                </ul>
+                            </div>
+
+                            <br>
+
+                            <div id="myresume" style="text-align: left;">
+                                <span style="font-weight: bolder;">VOLUNTEER</span> <br>
+                                Ecuadorian Mathematical Organization (OMEC)	July 2019 - Present
+                                <ul class="myresumepoints">
+                                    <li>Member of general coordination team. Grade third and fourth round of Ecuador's National Math Olympiad as well as Team Selection Tests for International Olympiads.</li>
+                                    <li>Provide training to Ecuadorian representatives in Geometry and Number Theory for international competitions such as IMO, EGMO, PAGMO, CONO, etc.</li>
+                                    <li>Deputy Leader of Ecuador's EGMO from 2020 to 2022. Reviewed participants solutions and reached an agreement with the jury upon each individual score.</li>
+                                </ul>
+                            </div>
+
+                            <br>
+
+                            <div id="myresume" style="text-align: left;">
+                                <span style="font-weight: bolder;">SKILLS</span> <br>
+                                <ul class="myresumepoints">
+                                    <li><span style="font-weight: bold;">Languages</span> Spanish (Native), English (fluent) and French (basic)</li>
+                                    <li><span style="font-weight: bold;">Programming languages</span>Java, Python, C, Javascript, HTML</li>
+                                    <li><span style="font-weight: bold;">Platforms</span>Microsoft Office: Word, Excel, PowerPoint. Windows, Google Cloud</li>
+                                    <li><span style="font-weight: bold;">Tools</span>Latex, Overleaf, Canva, Matlab</li>
+                                </ul>
+                            </div>
+                            
+                            <br>
+
+                            <div id="myresume" style="text-align: left;">
+                                <span style="font-weight: bolder;">PROGRAMS</span> <br>
+                                RTC Mentorship Program Powered by GS: Ace the Interview Bootcamp          February 2023 - May 2023<br>
+                                Leadership Academy: A Program for Advancing Students in Technology and Engineering     Summer 2022<br>
+                                Coursera Specialization Certificate: Architecting with Google Compute Engine	    September 2021<br> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                
+                <div class="grid-x grid-padding-x">
+                    <button type="button" class="cell large-auto small-11 button center mybutton" data-toggle="offCanvas">
+                        another menu for funsies
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

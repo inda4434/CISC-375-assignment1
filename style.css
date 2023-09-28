@@ -1,0 +1,162 @@
+html{
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(236, 233, 248);
+}
+
+body{
+    background-color: transparent;
+    color:rgb(72, 56, 129);
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(78, 50, 90);
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    color:rgb(72, 56, 129);
+}
+
+p{
+    color:rgb(52, 69, 96);
+}
+
+p a {
+    color: rgb(237, 234, 247);
+}
+
+.purplish{
+    color: rgb(78, 50, 90);;
+}
+    
+#sidebar {
+    width: 30%; /* normally 30% of containing element */
+    min-width: 200px; /* can’t be smaller than 200px though */
+}
+
+#paddedbox {
+    padding: 10px; /* all sides */
+}
+
+#borderbox {
+    border: 1px dotted #000000; /* black dotted line 1px thick */
+    border-top: 3px solid teal; /* red top as solid line 3px thick */
+}
+
+.floatleft {
+    float: left;
+    width: 200px;
+    background: rgb(141, 141, 220);
+}
+
+.clearleft {
+    clear: left;
+} 
+
+
+.menustyle {
+    height: auto;
+    background-color: #34254e;
+    color:rgb(191, 191, 235);
+    text-align: center;
+    margin: auto;
+    border: 0.5px dotted rgb(236, 233, 248);
+}
+
+.descstyle {
+    height: auto;
+    font-style: italic;
+    color: azure;
+    text-align: center;
+    margin: auto;
+    border: 0.5px dotted rgb(236, 233, 248);
+}
+
+.pdesc{
+    background-color: transparent;
+    font-style: italic;
+    font-size: 0.9rem;
+    color:azure;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.headstyle {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    height: auto;
+    background-color: rgb(191, 191, 235);
+    color: #34254e;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mybutton{
+    background-color: #221933;
+    color: rgb(191, 191, 235);
+}
+
+.mytinybutton{
+    color: azure;
+    font-size: 50%;
+    border: 0.5px solid rgb(191, 191, 235);
+    margin: 1%;
+}
+
+
+.rel {
+    position: relative;
+    left: auto;
+    top: 50%;
+    height: auto;
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    }
+
+.imgstyle{
+    max-width: 90%;
+    min-width: 50%;
+    max-height: 90%;
+    min-height: 50%;
+}
+
+a{
+    color:rgb(191, 191, 235);
+}
+
+#myresume{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90%;
+    color: #34254e;
+    border: 1px solid #221933;
+    text-align: left;
+}
+
+.myresumepoints{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90%;
+    color: #34254e;
+    text-align: left;
+}
