@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Personal Website</title>
+	<title>Personal Website: projects</title>
 	<link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="off-canvas-wrapper">
         <!-- Your menu or Off-canvas content goes here -->
-        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <div class="off-canvas position-left is-closed" data-transition="overlap" id="offCanvas" data-off-canvas>
             <!-- Close button --> <!--DEBES HACER QUE EL MENU NO MUEVA NADA-->
             <button class="close-button" aria-label="Close menu" type="button" data-close>
                 <span aria-hidden="true">&times;</span>
@@ -51,11 +51,72 @@
                         <h2 class="center">PROJECTS</h2>
                     </div>
 
-                    <div class="cell small-10 large-10 center" style="background-color: azure;">
-                        <div class="rel">
-                            <div id="myresume" style="text-align: center;">
-                                <span style="font-weight: bolder; font-size: 140%;">MARIA GRATZIA INDACOCHEA</span><br>
-                                <span style="font-size: 90%;">inda4434@stthomas.edu - (612)449-1874 - <a href="" style="color: #34254e;">Linkedin</a></span>
+                    <div class="cell small-11 large-12 center" style="background-color: transparent;">
+                        <h3 style="text-align: left; margin: auto;">RESEARCH</h2>
+                    </div>
+                    <div class="cell small-10 large-10 center">
+                        <!--1ST PROJECT-->
+                        <div class="grid-x grid-padding-x" style="background-color: aliceblue;">
+                            <div class="cell small-12 large-12 center" style="background-color: white;">
+                                <h4 style="text-align: left; margin: auto;">Power Domination</h4>
+                                <h5 style="text-align: left; margin: auto;">Summer 2023</h5>
+                            </div>
+                            <div class="cell small-4 large-4 mymar">
+                                <div class="myimgm">
+                                    <img src="researchpd.jpg" class="imgstyle"> 
+                                </div>
+                            </div>
+                            <div class="cell small-8 large-8 mymar">
+                                <p>
+                                    Electrical power networks must be continuously monitored to prevent blackouts, power surges, and in general, to guarantee good service. A phasor measurement unit, or PMU, is a device that is placed on the power grid to gather information from it. PMUs do this by measuring magnitude and phase angle of electromagnetic waves at the network location where its placed. We can model this process using graphs and power domination.
+                                    For this project, I analyzed the power domination number of hierarchical graphs products of path, cycle, complete, star and bipartite graphs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--2ND PROJECT-->
+                        <div class="grid-x grid-padding-x" style="background-color: aliceblue;">
+                            <div class="cell small-12 large-12 center" style="background-color: white;">
+                                <h4 style="text-align: left; margin: auto;">Fast software to compute knotting In proteins and chromosomes</h4>
+                                <h5 style="text-align: left; margin: auto;">Spring 2022</h5>
+                            </div>
+                            <div class="cell small-4 large-4 mymar">
+                                <div class="myimgm" style="display: flex; justify-content: center">
+                                    <img src="reasearchknot.jpg" class="imgstyle"> 
+                                </div>
+                            </div>
+                            <div class="cell small-8 large-8 mymar">
+                                <p>
+                                    Scientists have found knots in proteins, and possibly in genomes. Having knots in proteins seems like a terrible idea for many reasons. For example, proteins need to fold into their functional form, and folding into a knot seems like an unnecessary complication. In particular, misfolding in proteins can lead to diseases, like Mad Cow Disease and certain forms of cancer. Thus, the knotting must have some utility for the proteins. If we can understand why the knotting is there, it may be possible to create new treatments for these and other disorders. 
+                                    For this project, I helped writing code for a software that could count the number of knots in a sequence.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--NOT RESEARCH RELATED-->
+                    <div class="cell small-11 large-12 center" style="background-color: transparent;">
+                        <br>
+                        <h3 style="text-align: left; margin: auto;">OTHER</h2>
+                    </div>
+                    <div class="cell small-10 large-10 center">
+                        <!--3RD PROJECT-->
+                        <div class="grid-x grid-padding-x" style="background-color: aliceblue;">
+                            <div class="cell small-12 large-12 center" style="background-color: white;">
+                                <h4 style="text-align: left; margin: auto;">PAGMO</h4>
+                                <h5 style="text-align: left; margin: auto;">September 2021 - Present</h5>
+                            </div>
+                            <div class="cell small-4 large-4 mymar">
+                                <div class="myimgm">
+                                    <img src="pagmo.jpg" class="imgstyle"> 
+                                </div>
+                            </div>
+                            <div class="cell small-8 large-8 mymar">
+                                <p>
+                                    The Pan American Girls' Mathematical Olympiad (PAGMO) is an international mathematics competition for girls, similar to EGMO, with two papers taken place on consecutive days. PAGMO has the potential to have a positive impact for girls and women in the math olympiad community, including creating opportunities for women to test their mathematical potential and, at the same time, representing their country.
+                                    For this project, I was a problem coordinator and grader for the first and second edition of the Olympiad.
+                                    <br>
+                                    Click <a href="https://www.pagmo.info" target="_blank">here</a> for more info!
+                                </p> 
                             </div>
                         </div>
                     </div>

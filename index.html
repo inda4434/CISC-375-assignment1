@@ -10,8 +10,8 @@
 <body>
     <div class="off-canvas-wrapper">
         <!-- Your menu or Off-canvas content goes here -->
-        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-            <!-- Close button --> <!--DEBES HACER QUE EL MENU NO MUEVA NADA-->
+        <div class="off-canvas position-left is-closed" data-transition="overlap" id="offCanvas" data-off-canvas>
+            <!-- Close button --> 
             <button class="close-button" aria-label="Close menu" type="button" data-close>
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -57,38 +57,42 @@
                     </div>
                     <div class="cell small-11 large-6 center" style="background-color: transparent;">
                         <div class="rel">
-                            INFO ABOUT ME
+                            <p class="rel">
+                                Hi everyone! I'm Maria Gratzia Indacochea Rosado, Gratzia for short, and I was born and raised in Guayaquil, Ecuador. I'm an international student at the University of St. Thomas majoring in Computer Sciences with a minor in Mathematics. I'm currently a senior graduating in May 2024. I'm still considering on what to do next, but after college I would like to either get a tech-related job or go to grad school for maths.
+                            </p>
                         </div>
                     </div>
+                    <br>
                 </div>
 
                 <div class="grid-x grid-padding-x"> <!--description menu-->
+                    <br>
                     <div class="cell large-auto small-11 descstyle" style="background-color: #29255c;">
                         PROJECT
                         <div>
-                            <p class="pdesc">palabras</p>
+                            <p class="pdesc">Here I have some of the stuff I've done</p>
+                            <p>Click <a href="fun.html" style="color: rgb(52, 69, 96);">here</a> for more info!</p>
                         </div>
-                        <button type="button" class="mytinybutton">CLICK HERE FOR MORE</button>
                     </div>
                     <div class="cell large-auto small-11 descstyle" style="background-color: #a9a4eb;">
                         RESUME
                         <div>
-                            <p class="pdesc">palabras</p>
+                            <p class="pdesc">Here I have my up-to-date resume</p>
+                            <p>Click <a href="fun.html" style="color: rgb(52, 69, 96);">here</a> for more info!</p>
                         </div>
-                        <button type="button" class="mytinybutton" >CLICK HERE FOR MORE</button>
                     </div>
                     <div class="cell large-auto small-11 descstyle" style="background-color: #8773c9;">
                         FUN
                         <div>
-                            <p class="pdesc">palabras</p>
+                            <p class="pdesc">Here I have some of the things I like the most</p>
+                            <p>Click <a href="fun.html" style="color: rgb(52, 69, 96);">here</a> for more info!</p>
                         </div>
-                        <button type="button" class="mytinybutton">CLICK HERE FOR MORE</button>
                     </div>
                 </div>
 
                 
                 <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto small-11 button center" data-toggle="offCanvas">
+                    <button type="button" class="cell large-auto small-11 button center mybutton" data-toggle="offCanvas">
                         another menu for funsies
                     </button>
                 </div>
